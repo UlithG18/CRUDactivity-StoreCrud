@@ -1,0 +1,14 @@
+:root {
+    --font-primary: 'Satoshi', sans-serif;
+    --font-secondary: 'Ubuntu', sans-serif;
+    --font-third: 'Lilita One', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    font-family: var(--font-primary);
+    color: #000;
+}

@@ -1,0 +1,48 @@
+/* SATOSHI */
+@font-face {
+    font-family: 'Satoshi';
+    src: url("/assets/fonts/Satoshi_Complete/Fonts/TTF/Satoshi-Variable.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url("/assets/fonts/Satoshi_Complete/Fonts/TTF/Satoshi-VariableItalic.ttf") format("ttf");
+    font-style: italic;
+    font-display: swap;
+}
+
+/* LILITA ONE */
+@font-face {
+    font-family: 'Lilita One';
+    src: url("/assets/fonts/Lilita_One/LilitaOne-Regular.ttf") format("ttf");
+    font-display: swap;
+}
+
+/* UBUNTU */
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("/assets/fonts/Ubuntu/Ubuntu-Light.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("/assets/fonts/Ubuntu/Ubuntu-Bold.ttf") format("ttf");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Header */
+
+#crud {
+    font-family: var(--font-third);
+    font-size: 33.45px;
+    font-weight: 900;
+}

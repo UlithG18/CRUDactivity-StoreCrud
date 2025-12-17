@@ -1,0 +1,126 @@
+/* ------------------- header -------------------- */
+.upbar1 {
+    width: 100%;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+#x {
+    display: block;
+    position: absolute;
+    left: 90%;
+    bottom: 96%;
+    cursor: pointer;
+}
+
+.navbar {
+    width: 94%;
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+    padding: 1% 3%;
+}
+
+.navboxes {
+    position: relative;
+    display: flex;
+    margin: auto;
+}
+
+.navbar>p {
+    font-size: 24px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.navbar nav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.navbar nav img {
+    width: 10px;
+    height: 10px;
+}
+
+#links {
+    gap: 24px;
+}
+
+#search {
+
+    display: flex;
+    align-items: center;
+
+    padding: 10px 16px;
+    background-color: #f2f2f2;
+    border-radius: 62px;
+    font-size: 14px;
+    color: #777;
+    size: 100%;
+
+    input {
+        width: 548px;
+        background-color: #f2f2f2;
+        border: transparent;
+    }
+}
+
+.navbar>div:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+}
+
+.navbar>div:nth-of-type(2) img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/*---------------------------- Main ----------------------------*/
+
+.home-des {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#starmini,
+#starbig {
+    display: block;
+    position: absolute;
+    top: 0;
+}
+
+.brands {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 2% 5%;
+}
+
+.clothes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+footer article:nth-child(2)>div {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    gap: 32px;
+}

@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/pages/home.css">
+    <link rel="stylesheet" href="styles/font.css">
+    <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/responsive.css">
@@ -17,39 +18,47 @@
 <body>
 
     <header>
-        <div class="upbar1">
-            <p id="p1">Sign up and get 20% off to your first order. <span><strong><u>Sign Up Now</u></strong></span></p>
-            <img id="x" src="/assets/images/icons/x.svg" alt="x">
-        </div>
 
-        <div class="navbar11">
-
-            <div class="navboxes">
-                <p id="crud">CRUD.STORE</p>
+        <section>
+            <div class="upbar1">
+                <p id="p1">Sign up and get 20% off to your first order. <span><strong><u>Sign Up Now</u></strong></span>
+                </p>
+                <img id="x" src="/assets/images/icons/x.svg" alt="x">
             </div>
+        </section>
 
-            <div class="navboxes">
-                <nav>
-                    <a href="">Shop</a><img src="/assets/images/icons/down.svg" alt="Down arrow">
-                    <a href="">On Sale</a>
-                    <a href="">New Arrivals</a>
-                    <a href="">Brands</a>
-                </nav>
-            </div>
+        <section>
+            <div class="navbar">
 
-            <div class="navboxes"><img src="/assets/images/icons/loupe.svg" alt="Loupe">
-                <input type="text" placeholder="Search for products...">
-            </div>
+                <div class="navboxes">
+                    <p id="crud">CRUD.STORE</p>
+                </div>
 
-            <div class="navboxes"><img src="/assets/images/icons/car.svg" alt="Car"><img
-                    src="/assets/images/icons/user.svg" alt="User">
+                <div class="navboxes">
+                    <nav id="links">
+                        <a href="">Shop</a><img src="/assets/images/icons/down.svg" alt="Down arrow">
+                        <a href="">On Sale</a>
+                        <a href="">New Arrivals</a>
+                        <a href="">Brands</a>
+                    </nav>
+                </div>
+
+                <div class="navboxes" id="search">
+                    <img src="/assets/images/icons/loupe.svg" alt="Loupe">
+                    <input type="text" placeholder="Search for products...">
+                </div>
+
+                <div class="navboxes"><img class="user-car" src="/assets/images/icons/car.svg" alt="Car"><img
+                        class="user-car" src="/assets/images/icons/user.svg" alt="User">
+                </div>
             </div>
-        </div>
+        </section>
+
     </header>
 
     <main>
         <section class="home-des">
-            <article class="home-des2">
+            <article class="home-des1">
                 <div>
                     <p>FIND CLOTHES THAT MATCHES YOUR STYLE</p>
                 </div>
@@ -62,9 +71,6 @@
                 <div>
                     <p>Shop Now</p>
                 </div>
-
-                <div><img src="/assets/images/icons/starmini.svg" alt="decoration"></div>
-                <div><img src="/assets/images/icons/starbig.svg" alt="decoration"></div>
 
                 <div>
                     <div>
@@ -80,17 +86,22 @@
                         <p>Happy Customers</p>
                     </div>
                 </div>
-
             </article>
 
-            <article class="brands21">
-                <img src="/assets/images/icons/versace.svg" alt="Versace"><img src="/assets/images/icons/zara.svg"
-                    alt="Zara"><img src="/assets/images/icons/gucci.svg" alt="Gucci"><img
-                    src="/assets/images/icons/prada.svg" alt="Prada"><img src="/assets/images/icons/calvin.svg"
-                    alt="Calvin Klein">
+            <article class="home-des2">
+                <div><img src="/assets/images/people/girlandboy.png" alt="Models"></div>
+                <div><img id="starmini" src="/assets/images/icons/starmini.svg" alt="decoration"></div>
+                <div><img id="starbig" src="/assets/images/icons/starbig.svg" alt="decoration"></div>
             </article>
         </section>
 
+        <section class="brands">
+            <img src="/assets/images/icons/versace.svg" alt="Versace"><img src="/assets/images/icons/zara.svg"
+                alt="Zara"><img src="/assets/images/icons/gucci.svg" alt="Gucci"><img
+                src="/assets/images/icons/prada.svg" alt="Prada"><img src="/assets/images/icons/calvin.svg"
+                alt="Calvin Klein">
+        </section>
+        <!-- 
         <section>
 
             <article>
@@ -392,4 +403,4 @@
     </article>
 </footer>
 
-</html>
+</html> -->
