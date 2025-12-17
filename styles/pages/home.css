@@ -1,0 +1,77 @@
+/* ------------------- general -------------------- */
+
+html {
+    font-size: 16px;
+}
+
+/* ------------------- header -------------------- */
+
+
+.home-des2 {
+    background-image: url(/assets/images/people/girlandboy.png);
+    width: 100vh;
+
+}
+
+.upbar1 {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+.navboxes {
+    position: relative;
+    display: flex;
+    margin: auto;
+}
+
+#x {
+    position: absolute;
+    left: 90%;
+    bottom: 96%;
+    cursor: pointer;
+}
+
+.navbar11 {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: absolute;
+    bottom: 80%;
+}
+
+#crud {
+    font-size: 33.45px;
+    font-weight: 900;
+}
+
+
+.brands21 {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 2% 5%;
+}
+
+.clothes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+footer article:nth-child(2)>div {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    gap: 32px;
+}
